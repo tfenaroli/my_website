@@ -1,12 +1,16 @@
 import React from "react";
 import { Row, Col, Card, Button } from "react-bootstrap";
+import thomas from "../assets/thomas.jpg";
+import linkedin from "../assets/linkedin.jpg";
+import github from "../assets/github.jpg";
+import resume from "../assets/resume.jpg";
 
 const Home = () => {
     return (
         <React.Fragment>
             <Row className="mt-5 justify-content-center">
                 <Col md={5} xs={10}>
-                    <img src="thomas.jpg" className="img-fluid" />
+                    <img src={thomas} className="img-fluid" alt="thomasimg" />
                 </Col>
                 <Col md={5} xs={10} className="text-center bg-light">
                     <p className="mt-4">
@@ -23,7 +27,7 @@ const Home = () => {
             <Row className="mb-5">
                 <Col className="mt-5 d-flex justify-content-center text-center">
                     <Card style={{ width: "18rem" }}>
-                        <Card.Img variant="top" src="linkedin.jpg" />
+                        <Card.Img variant="top" src={linkedin} />
                         <Card.Body>
                             <Card.Title>LinkedIn</Card.Title>
                             <Button
@@ -38,7 +42,7 @@ const Home = () => {
                 </Col>
                 <Col className="mt-5 d-flex justify-content-center text-center">
                     <Card style={{ width: "18rem" }}>
-                        <Card.Img variant="top" src="GitHub.jpg" />
+                        <Card.Img variant="top" src={github} />
                         <Card.Body>
                             <Card.Title>GitHub</Card.Title>
                             <Button
@@ -53,7 +57,7 @@ const Home = () => {
                 </Col>
                 <Col className="mt-5 d-flex justify-content-center text-center">
                     <Card style={{ width: "18rem" }}>
-                        <Card.Img variant="top" src="resume.jpg" />
+                        <Card.Img variant="top" src={resume} />
                         <Card.Body>
                             <Card.Title>Resume</Card.Title>
                             <Button href="/" variant="primary" target="_blank">

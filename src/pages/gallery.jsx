@@ -1,5 +1,11 @@
 import React from "react";
 import { Row, Col, Carousel } from "react-bootstrap";
+import greenwichpoint from "../assets/greenwichpoint.jpg";
+import gile from "../assets/gile.jpg";
+import dartmouth from "../assets/dartmouth.jpg";
+import skip from "../assets/skip.jpg";
+import vermont from "../assets/vermont.jpg";
+import skiprunning from "../assets/skiprunning.jpg";
 
 const Gallery = () => {
     return (
@@ -15,7 +21,7 @@ const Gallery = () => {
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"
-                                src="greenwichpoint.jpg"
+                                src={greenwichpoint}
                                 alt="First slide"
                             />
                             <Carousel.Caption>
@@ -25,7 +31,7 @@ const Gallery = () => {
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"
-                                src="gile.jpg"
+                                src={gile}
                                 alt="Second slide"
                             />
 
@@ -36,7 +42,7 @@ const Gallery = () => {
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"
-                                src="dartmouth.jpg"
+                                src={dartmouth}
                                 alt="Third slide"
                             />
 
@@ -47,7 +53,7 @@ const Gallery = () => {
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"
-                                src="skip.jpg"
+                                src={skip}
                                 alt="Fourth slide"
                             />
 
@@ -58,7 +64,7 @@ const Gallery = () => {
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"
-                                src="vermont.jpg"
+                                src={vermont}
                                 alt="Fifth slide"
                             />
 
@@ -69,7 +75,7 @@ const Gallery = () => {
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"
-                                src="skiprunning.jpg"
+                                src={skiprunning}
                                 alt="Sixth slide"
                             />
 

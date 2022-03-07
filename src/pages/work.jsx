@@ -1,5 +1,8 @@
 import React from "react";
 import { Row, Col, Card, Button } from "react-bootstrap";
+import balloonpopper from "../assets/balloonpopper.jpg";
+import illuminate from "../assets/illuminate.jpg";
+import animation from "../assets/animation.jpg";
 
 const Work = () => {
     return (
@@ -12,7 +15,7 @@ const Work = () => {
             <Row>
                 <Col className="mt-5 text-center d-flex justify-content-center">
                     <Card style={{ width: "18rem" }}>
-                        <Card.Img variant="top" src="balloonpopper.jpg" />
+                        <Card.Img variant="top" src={balloonpopper} />
                         <Card.Body>
                             <Card.Title>Balloon Popper</Card.Title>
                             <Card.Text>
@@ -31,7 +34,7 @@ const Work = () => {
                 </Col>
                 <Col className="mt-5 text-center d-flex justify-content-center">
                     <Card style={{ width: "18rem" }}>
-                        <Card.Img variant="top" src="illuminate.jpg" />
+                        <Card.Img variant="top" src={illuminate} />
                         <Card.Body>
                             <Card.Title>Dartmouth Illuminate</Card.Title>
                             <Card.Text>
@@ -50,7 +53,7 @@ const Work = () => {
                 </Col>
                 <Col className="mt-5 text-center d-flex justify-content-center">
                     <Card style={{ width: "18rem" }}>
-                        <Card.Img variant="top" src="animation.jpg" />
+                        <Card.Img variant="top" src={animation} />
                         <Card.Body>
                             <Card.Title>Blender Python Scripting</Card.Title>
                             <Card.Text>
