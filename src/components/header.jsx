@@ -6,14 +6,14 @@ const Header = () => {
         <React.Fragment>
             <Row className="mt-4">
                 <Col className="text-center">
-                    <h1 className="display-1">
+                    <p className="display-4">
                         <b>Thomas Fenaroli</b>
-                    </h1>
+                    </p>
                 </Col>
             </Row>
-            <Row className="mt-3">
+            <Row className="mt-2">
                 <Col className="text-center">
-                    <h4>Dartmouth '24</h4>
+                    <p>Dartmouth '24</p>
                 </Col>
             </Row>
         </React.Fragment>
