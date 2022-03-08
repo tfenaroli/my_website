@@ -4,6 +4,7 @@ import thomas from "../assets/thomas.jpg";
 import linkedin from "../assets/linkedin.jpg";
 import github from "../assets/github.jpg";
 import resume from "../assets/resume.jpg";
+import pdf from "../assets/Thomas_Fenaroli_Resume.pdf";
 
 const Home = () => {
     return (
@@ -29,13 +30,12 @@ const Home = () => {
                     <Card style={{ width: "18rem" }}>
                         <Card.Img variant="top" src={linkedin} />
                         <Card.Body>
-                            <Card.Title>LinkedIn</Card.Title>
                             <Button
                                 href="https://www.linkedin.com/in/thomas-fenaroli-9066421ab/"
                                 variant="primary"
                                 target="_blank"
                             >
-                                Check it out!
+                                LinkedIn
                             </Button>
                         </Card.Body>
                     </Card>
@@ -44,13 +44,12 @@ const Home = () => {
                     <Card style={{ width: "18rem" }}>
                         <Card.Img variant="top" src={github} />
                         <Card.Body>
-                            <Card.Title>GitHub</Card.Title>
                             <Button
                                 href="https://github.com/tfenaroli"
                                 variant="primary"
                                 target="_blank"
                             >
-                                Check it out!
+                                GitHub
                             </Button>
                         </Card.Body>
                     </Card>
@@ -59,9 +58,12 @@ const Home = () => {
                     <Card style={{ width: "18rem" }}>
                         <Card.Img variant="top" src={resume} />
                         <Card.Body>
-                            <Card.Title>Resume</Card.Title>
-                            <Button href="/" variant="primary" target="_blank">
-                                Check it out!
+                            <Button
+                                href={pdf}
+                                variant="primary"
+                                target="_blank"
+                            >
+                                Resume
                             </Button>
                         </Card.Body>
                     </Card>
