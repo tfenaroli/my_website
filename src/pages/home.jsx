@@ -15,13 +15,13 @@ const Home = () => {
                 </Col>
                 <Col md={5} xs={10} className="text-center bg-light">
                     <p className="mt-4">
-                        testing I am a '24 at Dartmouth College from Greenwich,
-                        CT. At Dartmouth, I'm involved with the Dartmouth
-                        Society of Photographers, the Dartmouth Club Golf Team,
-                        and the Dartmouth Investment and Philanthropy Program.
-                        Outside of school, I am a software developer at Team
-                        Legislate and take part in research regarding OnCore
-                        Golf's perimeter weighting golf ball technology.
+                        I am a '24 at Dartmouth College from Greenwich, CT. At
+                        Dartmouth, I'm involved with the Dartmouth Society of
+                        Photographers, the Dartmouth Club Golf Team, and the
+                        Dartmouth Investment and Philanthropy Program. Outside
+                        of school, I am a software developer at Team Legislate
+                        and take part in research regarding OnCore Golf's
+                        perimeter weighting golf ball technology.
                     </p>
                 </Col>
             </Row>
