@@ -11,7 +11,7 @@ const Header = () => {
                     </h1>
                 </Col>
             </Row>
-            <Row className="mt-2">
+            <Row className="mt-3">
                 <Col className="text-center">
                     <h4>Dartmouth '24</h4>
                 </Col>

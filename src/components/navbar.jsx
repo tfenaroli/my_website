@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
     return (
         <React.Fragment>
-            <Navbar className="mt-4" expand="md">
+            <Navbar className="mt-3" expand="md">
                 <Container>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">

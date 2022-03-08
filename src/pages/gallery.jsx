@@ -24,9 +24,6 @@ const Gallery = () => {
                                 src={greenwichpoint}
                                 alt="First slide"
                             />
-                            <Carousel.Caption>
-                                <h3>Greenwich Point</h3>
-                            </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
@@ -34,10 +31,6 @@ const Gallery = () => {
                                 src={gile}
                                 alt="Second slide"
                             />
-
-                            <Carousel.Caption>
-                                <h3>Gile Mountain</h3>
-                            </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
@@ -45,10 +38,6 @@ const Gallery = () => {
                                 src={dartmouth}
                                 alt="Third slide"
                             />
-
-                            <Carousel.Caption>
-                                <h3>Dartmouth v. Yale</h3>
-                            </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
@@ -56,10 +45,6 @@ const Gallery = () => {
                                 src={skip}
                                 alt="Fourth slide"
                             />
-
-                            <Carousel.Caption>
-                                <h3>Skip</h3>
-                            </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
@@ -67,10 +52,6 @@ const Gallery = () => {
                                 src={vermont}
                                 alt="Fifth slide"
                             />
-
-                            <Carousel.Caption>
-                                <h3>Winter Cabin</h3>
-                            </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
@@ -78,10 +59,6 @@ const Gallery = () => {
                                 src={skiprunning}
                                 alt="Sixth slide"
                             />
-
-                            <Carousel.Caption>
-                                <h3>Skip at the Beach</h3>
-                            </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
                 </Col>
