@@ -27,7 +27,7 @@ const Home = () => {
             </Row>
             <Row className="mb-5">
                 <Col className="mt-5 d-flex justify-content-center text-center">
-                    <Card style={{ width: "18rem" }}>
+                    <Card style={{ width: "12rem" }}>
                         <Card.Img variant="top" src={linkedin} />
                         <Card.Body>
                             <Button
@@ -41,7 +41,7 @@ const Home = () => {
                     </Card>
                 </Col>
                 <Col className="mt-5 d-flex justify-content-center text-center">
-                    <Card style={{ width: "18rem" }}>
+                    <Card style={{ width: "12rem" }}>
                         <Card.Img variant="top" src={github} />
                         <Card.Body>
                             <Button
@@ -55,7 +55,7 @@ const Home = () => {
                     </Card>
                 </Col>
                 <Col className="mt-5 d-flex justify-content-center text-center">
-                    <Card style={{ width: "18rem" }}>
+                    <Card style={{ width: "12rem" }}>
                         <Card.Img variant="top" src={resume} />
                         <Card.Body>
                             <Button
