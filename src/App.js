@@ -11,23 +11,23 @@ import Gallery from "./pages/gallery";
 import Contact from "./pages/contact";
 
 const App = () => {
-    return (
-        <Router>
-            <Header />
-            <NavBar />
-            <Container>
-                <Routes>
-                    <Route path="/">
-                        <Route index element={<Home />} />
-                        <Route path="home" element={<Home />} />
-                        <Route path="work" element={<Work />} />
-                        <Route path="gallery" element={<Gallery />} />
-                        <Route path="contact" element={<Contact />} />
-                    </Route>
-                </Routes>
-            </Container>
-        </Router>
-    );
+	return (
+		<Router>
+			{/* <Header /> */}
+			<NavBar />
+			<Container>
+				<Routes>
+					<Route path="/">
+						<Route index element={<Home />} />
+						<Route path="home" element={<Home />} />
+						<Route path="work" element={<Work />} />
+						<Route path="gallery" element={<Gallery />} />
+						<Route path="contact" element={<Contact />} />
+					</Route>
+				</Routes>
+			</Container>
+		</Router>
+	);
 };
 
 export default App;

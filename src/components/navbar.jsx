@@ -5,8 +5,9 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
     return (
         <React.Fragment>
-            <Navbar className="mt-0" expand="md">
+            <Navbar className="bg-primary" expand="md">
                 <Container>
+					<Navbar.Brand />
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mx-auto">
