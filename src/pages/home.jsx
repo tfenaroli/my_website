@@ -34,7 +34,7 @@ const Home = () => {
                         <Card.Body>
                             <Button
                                 href="https://www.linkedin.com/in/thomas-fenaroli-9066421ab/"
-                                variant="primary"
+                                variant="secondary"
                                 target="_blank"
                             >
                                 LinkedIn
@@ -48,7 +48,7 @@ const Home = () => {
                         <Card.Body>
                             <Button
                                 href="https://github.com/tfenaroli"
-                                variant="primary"
+                                variant="secondary"
                                 target="_blank"
                             >
                                 GitHub
@@ -62,7 +62,7 @@ const Home = () => {
                         <Card.Body>
                             <Button
                                 href={pdf}
-                                variant="primary"
+                                variant="secondary"
                                 target="_blank"
                             >
                                 Resume

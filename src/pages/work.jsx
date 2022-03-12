@@ -24,7 +24,7 @@ const Work = () => {
                             </Card.Text>
                             <Button
                                 href="https://github.com/tfenaroli/Balloon-Popper"
-                                variant="primary"
+                                variant="secondary"
                                 target="_blank"
                             >
                                 Check it out!
@@ -43,7 +43,7 @@ const Work = () => {
                             </Card.Text>
                             <Button
                                 href="https://github.com/tfenaroli/dartmouthphotographers.com"
-                                variant="primary"
+                                variant="secondary"
                                 target="_blank"
                             >
                                 Check it out!
@@ -63,7 +63,7 @@ const Work = () => {
                             </Card.Text>
                             <Button
                                 href="https://gist.github.com/tfenaroli/0b08f9dcae8d40c567a6fecb30933d81"
-                                variant="primary"
+                                variant="secondary"
                                 target="_blank"
                             >
                                 Check it out!
@@ -90,7 +90,7 @@ const Work = () => {
                             </Card.Text>
                             <Button
                                 href="https://github.com/tfenaroli/dartmouth-cs1/tree/main/Lab%204"
-                                variant="primary"
+                                variant="secondary"
                                 target="_blank"
                             >
                                 Check it out!
@@ -109,7 +109,7 @@ const Work = () => {
                             </Card.Text>
                             <Button
                                 href="https://github.com/tfenaroli/dartmouth-cs10/tree/main/PS1"
-                                variant="primary"
+                                variant="secondary"
                                 target="_blank"
                             >
                                 Check it out!
@@ -129,7 +129,7 @@ const Work = () => {
                             </Card.Text>
                             <Button
                                 href="https://github.com/tfenaroli/dartmouth-cs10/tree/main/PS2"
-                                variant="primary"
+                                variant="secondary"
                                 target="_blank"
                             >
                                 Check it out!
@@ -147,7 +147,7 @@ const Work = () => {
                             </Card.Text>
                             <Button
                                 href="https://github.com/tfenaroli/dartmouth-cs10/tree/main/PS3"
-                                variant="primary"
+                                variant="secondary"
                                 target="_blank"
                             >
                                 Check it out!
@@ -169,7 +169,7 @@ const Work = () => {
                             </Card.Text>
                             <Button
                                 href="https://github.com/tfenaroli/dartmouth-cs10/tree/main/PS4"
-                                variant="primary"
+                                variant="secondary"
                                 target="_blank"
                             >
                                 Check it out!
@@ -187,7 +187,7 @@ const Work = () => {
                             </Card.Text>
                             <Button
                                 href="https://github.com/tfenaroli/dartmouth-cs10/tree/main/PS5"
-                                variant="primary"
+                                variant="secondary"
                                 target="_blank"
                             >
                                 Check it out!
@@ -207,7 +207,7 @@ const Work = () => {
                             </Card.Text>
                             <Button
                                 href="https://github.com/tfenaroli/dartmouth-cs10/tree/main/PS6"
-                                variant="primary"
+                                variant="secondary"
                                 target="_blank"
                             >
                                 Check it out!
@@ -225,7 +225,7 @@ const Work = () => {
                             </Card.Text>
                             <Button
                                 href="https://github.com/tfenaroli/dartmouth-cs50/tree/main/lab1-tfenaroli"
-                                variant="primary"
+                                variant="secondary"
                                 target="_blank"
                             >
                                 Check it out!
@@ -245,7 +245,7 @@ const Work = () => {
                             </Card.Text>
                             <Button
                                 href="https://github.com/tfenaroli/dartmouth-cs50/tree/main/lab3-tfenaroli"
-                                variant="primary"
+                                variant="secondary"
                                 target="_blank"
                             >
                                 Check it out!
@@ -263,7 +263,7 @@ const Work = () => {
                             </Card.Text>
                             <Button
                                 href="https://github.com/tfenaroli/dartmouth-cs50/tree/main/tse-tfenaroli"
-                                variant="primary"
+                                variant="secondary"
                                 target="_blank"
                             >
                                 Check it out!
