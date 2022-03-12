@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./components/navbar";
-import Header from "./components/header";
+// import Header from "./components/header";
 import Home from "./pages/home";
 import Work from "./pages/work";
 import Gallery from "./pages/gallery";
