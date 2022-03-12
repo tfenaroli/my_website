@@ -5,22 +5,42 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
     return (
         <React.Fragment>
-            <Navbar className="bg-primary" expand="md">
+            <Navbar className="bg-light" expand="md">
                 <Container>
-					<Navbar.Brand />
+                    <Navbar.Brand />
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mx-auto">
-                            <Nav.Link as={Link} to="/home">
+                            <Nav.Link
+                                className="me-2"
+                                align="end"
+                                as={Link}
+                                to="/home"
+                            >
                                 Home
                             </Nav.Link>
-                            <Nav.Link as={Link} to="/work">
+                            <Nav.Link
+                                className="me-2"
+                                align="end"
+                                as={Link}
+                                to="/work"
+                            >
                                 Work
                             </Nav.Link>
-                            <Nav.Link as={Link} to="/gallery">
+                            <Nav.Link
+                                className="me-2"
+                                align="end"
+                                as={Link}
+                                to="/gallery"
+                            >
                                 Gallery
                             </Nav.Link>
-                            <Nav.Link as={Link} to="/contact">
+                            <Nav.Link
+                                className="me-2"
+                                align="end"
+                                as={Link}
+                                to="/contact"
+                            >
                                 Contact
                             </Nav.Link>
                         </Nav>

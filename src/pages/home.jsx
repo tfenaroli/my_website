@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col, Card, Button } from "react-bootstrap";
+import Header from "../components/header";
 import thomas from "../assets/thomas.jpg";
 import linkedin from "../assets/linkedin.jpg";
 import github from "../assets/github.jpg";
@@ -9,6 +10,7 @@ import pdf from "../assets/Thomas_Fenaroli_Resume.pdf";
 const Home = () => {
     return (
         <React.Fragment>
+            <Header />
             <Row className="mt-5 justify-content-center">
                 <Col md={5} xs={10}>
                     <img src={thomas} className="img-fluid" alt="thomasimg" />

@@ -4,7 +4,7 @@ import { Row, Col } from "react-bootstrap";
 const Header = () => {
     return (
         <React.Fragment>
-            <Row className="mt-4">
+            <Row className="mt-5">
                 <Col className="text-center">
                     <p className="display-4">
                         <b>Thomas Fenaroli</b>
