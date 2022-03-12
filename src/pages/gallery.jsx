@@ -11,7 +11,7 @@ const Gallery = () => {
     return (
         <React.Fragment>
             <Row className="mt-5">
-                <Col className="text-center">
+                <Col className="text-center animate__animated animate__fadeIn">
                     <h1>Here are some of my photos!</h1>
                 </Col>
             </Row>

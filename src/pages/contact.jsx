@@ -5,19 +5,19 @@ const Contact = () => {
     return (
         <React.Fragment>
             <Row className="mt-5">
-                <Col className="text-center">
+                <Col className="text-center animate__animated animate__fadeIn">
                     <h1 className="text-break">
                         thomas.s.fenaroli.24@dartmouth.edu
                     </h1>
                 </Col>
             </Row>
             <Row className="mt-5">
-                <Col className="text-center">
+                <Col className="text-center animate__animated animate__fadeIn">
                     <h1 className="text-break">tfenaroli@icloud.com</h1>
                 </Col>
             </Row>
             <Row className="mt-5">
-                <Col className="text-center">
+                <Col className="text-center animate__animated animate__fadeIn">
                     <h1 className="text-break">(203)-832-5002</h1>
                 </Col>
             </Row>

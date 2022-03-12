@@ -8,7 +8,7 @@ const Work = () => {
     return (
         <React.Fragment>
             <Row className="mt-5">
-                <Col className="text-center">
+                <Col className="text-center animate__animated animate__fadeIn">
                     <h1>Projects</h1>
                 </Col>
             </Row>
@@ -73,7 +73,7 @@ const Work = () => {
                 </Col>
             </Row>
             <Row className="mt-5">
-                <Col className="text-center">
+                <Col className="text-center animate__animated animate__fadeIn">
                     <h1>Classwork</h1>
                 </Col>
             </Row>

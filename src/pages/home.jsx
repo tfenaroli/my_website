@@ -12,10 +12,18 @@ const Home = () => {
         <React.Fragment>
             <Header />
             <Row className="mt-5 justify-content-center">
-                <Col md={5} xs={10}>
+                <Col
+                    className="animate__animated animate__slideInLeft"
+                    md={5}
+                    xs={10}
+                >
                     <img src={thomas} className="img-fluid" alt="thomasimg" />
                 </Col>
-                <Col md={5} xs={10} className="text-center bg-light">
+                <Col
+                    md={5}
+                    xs={10}
+                    className="text-center bg-light animate__animated animate__slideInRight"
+                >
                     <p className="mt-4">
                         I am a '24 at Dartmouth College from Greenwich, CT. At
                         Dartmouth, I'm involved with the Dartmouth Society of

@@ -5,14 +5,14 @@ const Header = () => {
     return (
         <React.Fragment>
             <Row className="mt-5">
-                <Col className="text-center">
+                <Col className="text-center animate__animated animate__fadeIn">
                     <p className="display-4">
                         <b>Thomas Fenaroli</b>
                     </p>
                 </Col>
             </Row>
             <Row className="mt-2">
-                <Col className="text-center">
+                <Col className="text-center animate__animated animate__fadeIn">
                     <p>Dartmouth '24</p>
                 </Col>
             </Row>
