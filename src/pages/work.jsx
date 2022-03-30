@@ -72,11 +72,6 @@ const Work = () => {
                     </Card>
                 </Col>
             </Row>
-            <Row className="mt-5">
-                <Col className="text-center animate__animated animate__fadeIn">
-                    <h1>Classwork</h1>
-                </Col>
-            </Row>
             <Row>
                 <Col className="mt-5 text-center d-flex justify-content-center">
                     <Card style={{ width: "18rem" }}>
