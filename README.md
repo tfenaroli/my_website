@@ -1,4 +1,4 @@
-# Project Title
+# Personal Website
 
 Personal website for Thomas S. Fenaroli.
 
