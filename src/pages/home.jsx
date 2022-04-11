@@ -1,5 +1,7 @@
 import React from "react";
 import { Row, Col, Card, Button } from "react-bootstrap";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import Header from "../components/header";
 import thomas from "../assets/thomas.jpg";
 import linkedin from "../assets/linkedin.jpg";
