@@ -29,7 +29,7 @@ const Home = () => {
                         Dartmouth, I'm involved with the Dartmouth Society of
                         Photographers, the Dartmouth Club Golf Team, and the
                         Dartmouth Investment and Philanthropy Program. Outside
-                        of school, I am a software developer at Team Legislate.
+                        of school, I am a software engineer at Team Legislate.
                     </p>
                 </Col>
             </Row>
@@ -39,7 +39,7 @@ const Home = () => {
                         <Card.Img variant="top" src={linkedin} />
                         <Card.Body>
                             <Button
-                                href="https://www.linkedin.com/in/thomas-fenaroli-9066421ab/"
+                                href="https://www.linkedin.com/in/thomasfenaroli/"
                                 variant="outline-secondary"
                                 target="_blank"
                             >

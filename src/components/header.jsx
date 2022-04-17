@@ -7,7 +7,7 @@ const Header = () => {
             <Row className="mt-5">
                 <Col className="text-center animate__animated animate__fadeIn">
                     <p className="display-4">
-                        <b>Thomas S. Fenaroli</b>
+                        <b>Thomas Fenaroli</b>
                     </p>
                 </Col>
             </Row>
