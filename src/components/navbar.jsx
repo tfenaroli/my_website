@@ -1,35 +1,36 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import "../App.css";
 
 const NavBar = () => {
     return (
         <React.Fragment>
-            <Navbar className="bg-light" expand="md">
+            <Navbar className="navtext" expand="md">
                 <Container>
                     <Navbar.Brand />
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mx-auto">
                             <Nav.Link className="mx-auto" as={Link} to="/home">
-                                Home
+                                HOME
                             </Nav.Link>
                             <Nav.Link className="mx-auto" as={Link} to="/work">
-                                Work
+                                WORK
                             </Nav.Link>
                             <Nav.Link
                                 className="mx-auto"
                                 as={Link}
                                 to="/gallery"
                             >
-                                Gallery
+                                GALLERY
                             </Nav.Link>
                             <Nav.Link
                                 className="mx-auto"
                                 as={Link}
                                 to="/contact"
                             >
-                                Contact
+                                CONTACT
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
