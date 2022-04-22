@@ -16,13 +16,13 @@ const Work = () => {
             <Container>
                 <Col md={8}>
                     <p className="mt-4 bigtext">
-                        <b>student and software engineer</b>
+                        <b>student and software engineer.</b>
                     </p>
                     <p className="fs-3">
                         studying Computer Science Modified with Economics{" "}
                         <span className="dartmouth">@Dartmouth College</span>{" "}
                         and developing software{" "}
-                        <span className="teamlegislate">@Team Legislate</span>
+                        <span className="teamlegislate">@Team Legislate</span>.
                     </p>
                 </Col>
 
@@ -56,7 +56,7 @@ const Work = () => {
 
                 <Row className="mt-5">
                     <Col className="text-center animate__animated animate__fadeIn">
-                        <h1>Projects</h1>
+                        <h1>Projects.</h1>
                     </Col>
                 </Row>
 
