@@ -7,7 +7,7 @@ import skip from "../assets/skip.jpg";
 import vermont from "../assets/vermont.jpg";
 import skiprunning from "../assets/skiprunning.jpg";
 
-const Gallery = () => {
+const Contact = () => {
     return (
         <React.Fragment>
             <Container>
@@ -69,4 +69,4 @@ const Gallery = () => {
     );
 };
 
-export default Gallery;
+export default Contact;

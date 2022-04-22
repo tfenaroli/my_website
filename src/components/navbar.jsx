@@ -6,31 +6,23 @@ import "../App.css";
 const NavBar = () => {
     return (
         <React.Fragment>
-            <Navbar className="navtext" expand="md">
+            <Navbar className="sticky-top navtext border mt-5" expand="md">
                 <Container>
-                    <Navbar.Brand />
+                    <Navbar.Brand>Thomas Fenaroli</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="mx-auto">
-                            <Nav.Link className="mx-auto" as={Link} to="/home">
-                                HOME
+                    <Navbar.Collapse
+                        className="justify-content-end"
+                        id="basic-navbar-nav"
+                    >
+                        <Nav className="border">
+                            <Nav.Link as={Link} to="/work">
+                                work
                             </Nav.Link>
-                            <Nav.Link className="mx-auto" as={Link} to="/work">
-                                WORK
+                            <Nav.Link as={Link} to="/about">
+                                about
                             </Nav.Link>
-                            <Nav.Link
-                                className="mx-auto"
-                                as={Link}
-                                to="/gallery"
-                            >
-                                GALLERY
-                            </Nav.Link>
-                            <Nav.Link
-                                className="mx-auto"
-                                as={Link}
-                                to="/contact"
-                            >
-                                CONTACT
+                            <Nav.Link as={Link} to="/contact">
+                                resume
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
