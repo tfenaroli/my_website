@@ -1,20 +1,20 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import Project from "../components/project";
-import balloonpopper from "../assets/balloonpopper.jpg";
-import dalichat from "../assets/dalichat.jpg";
-import notes from "../assets/notes.jpg";
-import website from "../assets/website.jpg";
-import illuminate from "../assets/illuminate.jpg";
-import animation from "../assets/animation.jpg";
-import thomas from "../assets/thomas.jpg";
+import balloonpopper from "../assets/balloonpopper.png";
+import dalichat from "../assets/dalichat.png";
+import notes from "../assets/notes.png";
+import website from "../assets/website.png";
+import illuminate from "../assets/illuminate.png";
+import animation from "../assets/animation.png";
+import thomas from "../assets/thomas.png";
 import "../App.css";
 
 const Work = () => {
     return (
         <React.Fragment>
             <Container>
-                <Col md={8}>
+                <Col md={8} className="animate__animated animate__fadeIn">
                     <p className="mt-4 bigtext">
                         <b>student and software engineer.</b>
                     </p>
@@ -56,7 +56,7 @@ const Work = () => {
 
                 <Row className="mt-5">
                     <Col className="text-center animate__animated animate__fadeIn">
-                        <h1>Projects.</h1>
+                        <h1>projects.</h1>
                     </Col>
                 </Row>
 
@@ -66,19 +66,21 @@ const Work = () => {
                         caption="Developed a responsive multi-page social
                                     media web application with user
                                     authentication, posting, and commenting
-                                    features. Implemented using HTML, CSS,
-                                    JavaScript, ReactJS, React Router,
-                                    React-Bootstrap, and Firebase."
+                                    features."
                         link="https://github.com/tfenaroli/dalichat"
+                        tools="HTML, CSS,
+                                    JavaScript, ReactJS, React Router,
+                                    React-Bootstrap, and Firebase"
                         image={dalichat}
                     />
                     <Project
                         title="Notes App"
                         caption="Developed a mobile notes application with
                                     posting, editing, and deleting features.
-                                    Implemented using JavaScript, ReactJS, React
-                                    Native, and React Navigation."
+                                   "
                         link="https://github.com/tfenaroli/notes_app"
+                        tools="JavaScript, ReactJS, React
+                                    Native, and React Navigation."
                         image={notes}
                     />
                     <Project
@@ -86,6 +88,7 @@ const Work = () => {
                         caption="Created a responsive website for the
                                     Dartmouth Society of Photographers."
                         link="https://github.com/tfenaroli/dartmouthphotographers.com"
+                        tools="HTML, CSS"
                         image={illuminate}
                     />
                     <Project
@@ -94,6 +97,7 @@ const Work = () => {
                                     a golf ball along CSV file coordinates for
                                     3-d rendering."
                         link="https://gist.github.com/tfenaroli/0b08f9dcae8d40c567a6fecb30933d81"
+                        tools="Python, MatLab"
                         image={animation}
                     />
                     <Project
@@ -101,17 +105,24 @@ const Work = () => {
                         caption="Used Pygame library to create bird, kite,
                                     and balloon game."
                         link="https://github.com/tfenaroli/Balloon-Popper"
+                        tools="Python, Pygame"
                         image={balloonpopper}
                     />
 
                     <Project
                         title="Personal Website"
-                        caption="This website! Implemented using HTML, CSS,
+                        caption="This website!"
+                        link="https://github.com/tfenaroli/personal_website"
+                        tools="HTML, CSS,
                                     JavaScript, ReactJS, React Router,
                                     React-Bootstrap."
-                        link="https://github.com/tfenaroli/personal_website"
                         image={website}
                     />
+                </Row>
+                <Row className="mt-5">
+                    <Col className="text-center animate__animated animate__fadeIn">
+                        <h1>classwork.</h1>
+                    </Col>
                 </Row>
                 <Row>
                     <Col className="mt-5 text-center d-flex justify-content-center">

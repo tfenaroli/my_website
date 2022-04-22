@@ -13,8 +13,7 @@ const Footer = () => {
             <Row>
                 <Col className="text-center">
                     <p className="text-break text-muted fs-5">
-                        thomas.s.fenaroli.24@dartmouth.edu -
-                        tfenaroli@icloud.com - (203)-832-5002
+                        thomas.s.fenaroli.24@dartmouth.edu - (203)-832-5002
                     </p>
                 </Col>
             </Row>
