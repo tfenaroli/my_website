@@ -1,8 +1,6 @@
 import React from "react";
-import { Container, Row, Col, Carousel, Image } from "react-bootstrap";
+import { Container, Row, Col, Carousel } from "react-bootstrap";
 import golf from "../assets/golf.jpg";
-import thomas from "../assets/thomas.jpg";
-
 import greenwichpoint from "../assets/greenwichpoint.jpg";
 import gile from "../assets/gile.jpg";
 import dartmouth from "../assets/dartmouth.jpg";
