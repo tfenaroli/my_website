@@ -7,7 +7,7 @@ const Footer = () => {
             <hr></hr>
             <Row>
                 <Col className="text-center mt-2 fs-3">
-                    <p>Let's Connect</p>
+                    <p>let's connect</p>
                 </Col>
             </Row>
             <Row>
