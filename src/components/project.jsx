@@ -1,11 +1,25 @@
 import React from "react";
 import { Container, Row, Col, Button, Image } from "react-bootstrap";
+import "../App.css";
 
 const Project = (props) => {
     return (
         <React.Fragment>
             <Col md={6} className="mt-5">
-                <Image className="border" fluid="true" src={props.image} />
+                <div class="img__wrap">
+                    {/* <Image
+                        className="img__img border"
+                        fluid="true"
+                        src={props.image}
+                    /> */}
+                    <p class="img__description p-3 fs-3">{props.caption}</p>
+
+                    <Image
+                        className="border img__img"
+                        fluid="true"
+                        src={props.image}
+                    />
+                </div>
                 <Row className="mt-3">
                     <Col xs={10}>
                         <h3 className="my-0">{props.title}</h3>

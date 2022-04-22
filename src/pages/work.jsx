@@ -61,7 +61,7 @@ const Work = () => {
                         <h1>projects.</h1>
                     </Col>
                 </Row>
-                <Row>
+                <Row className="d-flex justify-content-between">
                     <Project
                         title="DALIChat"
                         caption="Developed a responsive multi-page social
