@@ -3,6 +3,11 @@
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.nav {
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+}
+
 .dartmouth {
     font-weight: bold;
     color: #01693e;

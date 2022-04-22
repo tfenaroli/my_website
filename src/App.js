@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import "animate.css/animate.css";
 import NavBar from "./components/navbar";
-import Home from "./pages/home";
+import Footer from "./components/footer";
 import Work from "./pages/work";
 import About from "./pages/about";
 import Gallery from "./pages/gallery";
@@ -14,7 +14,6 @@ import Gallery from "./pages/gallery";
 const App = () => {
 	return (
 		<Router>
-			{/* <Header /> */}
 			<NavBar />
 			<Container>
 				<Routes>
@@ -27,6 +26,7 @@ const App = () => {
 						{/* <Route path="contact" element={<Contact />} /> */}
 					</Route>
 				</Routes>
+				<Footer />
 			</Container>
 		</Router>
 	);

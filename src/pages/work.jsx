@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import Footer from "../components/footer";
+import Project from "../components/project";
 import balloonpopper from "../assets/balloonpopper.jpg";
 import dalichat from "../assets/dalichat.jpg";
 import notes from "../assets/notes.jpg";
@@ -8,23 +8,18 @@ import website from "../assets/website.jpg";
 import illuminate from "../assets/illuminate.jpg";
 import animation from "../assets/animation.jpg";
 import thomas from "../assets/thomas.jpg";
-import linkedin from "../assets/linkedin.jpg";
-import github from "../assets/github.jpg";
-import resume from "../assets/resume.jpg";
-import pdf from "../assets/Thomas_Fenaroli_Resume.pdf";
 import "../App.css";
 
 const Work = () => {
     return (
         <React.Fragment>
             <Container>
-                <Col xs={8}>
+                <Col md={8}>
                     <p className="mt-4 bigtext">
-                        <b>Student and Software Engineer</b>
+                        <b>student and software engineer</b>
                     </p>
                     <p className="fs-3">
-                        Currently studying Computer Science Modified with
-                        Economics{" "}
+                        studying Computer Science Modified with Economics{" "}
                         <span className="dartmouth">@Dartmouth College</span>{" "}
                         and developing software{" "}
                         <span className="teamlegislate">@Team Legislate</span>
@@ -34,7 +29,7 @@ const Work = () => {
                 <Row className="mt-5 justify-content-center">
                     <Col
                         className="animate__animated animate__slideInLeft"
-                        md={5}
+                        md={6}
                         xs={10}
                     >
                         <img
@@ -44,7 +39,7 @@ const Work = () => {
                         />
                     </Col>
                     <Col
-                        md={5}
+                        md={6}
                         xs={10}
                         className="text-center bg-light animate__animated animate__slideInRight"
                     >
@@ -58,181 +53,65 @@ const Work = () => {
                         </p>
                     </Col>
                 </Row>
-                <Row className="mb-5">
-                    <Col className="mt-5 d-flex justify-content-center text-center">
-                        <Card style={{ width: "12rem" }}>
-                            <Card.Img variant="top" src={linkedin} />
-                            <Card.Body>
-                                <Button
-                                    href="https://www.linkedin.com/in/thomasfenaroli/"
-                                    variant="outline-secondary"
-                                    target="_blank"
-                                >
-                                    LinkedIn
-                                </Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col className="mt-5 d-flex justify-content-center text-center">
-                        <Card style={{ width: "12rem" }}>
-                            <Card.Img variant="top" src={github} />
-                            <Card.Body>
-                                <Button
-                                    href="https://github.com/tfenaroli"
-                                    variant="outline-secondary"
-                                    target="_blank"
-                                >
-                                    GitHub
-                                </Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col className="mt-5 d-flex justify-content-center text-center">
-                        <Card style={{ width: "12rem" }}>
-                            <Card.Img variant="top" src={resume} />
-                            <Card.Body>
-                                <Button
-                                    href={pdf}
-                                    variant="outline-secondary"
-                                    target="_blank"
-                                >
-                                    Resume
-                                </Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                </Row>
+
                 <Row className="mt-5">
                     <Col className="text-center animate__animated animate__fadeIn">
                         <h1>Projects</h1>
                     </Col>
                 </Row>
+
                 <Row>
-                    <Col className="mt-5 text-center d-flex justify-content-center">
-                        <Card style={{ width: "18rem" }}>
-                            <Card.Img variant="top" src={dalichat} />
-                            <Card.Body>
-                                <Card.Title>DaliChat</Card.Title>
-                                <Card.Text>
-                                    Developed a responsive multi-page social
+                    <Project
+                        title="DALIChat"
+                        caption="Developed a responsive multi-page social
                                     media web application with user
                                     authentication, posting, and commenting
                                     features. Implemented using HTML, CSS,
                                     JavaScript, ReactJS, React Router,
-                                    React-Bootstrap, and Firebase.
-                                </Card.Text>
-                                <Button
-                                    href="https://github.com/tfenaroli/social_media_app"
-                                    variant="outline-secondary"
-                                    target="_blank"
-                                >
-                                    Check it out!
-                                </Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col className="mt-5 text-center d-flex justify-content-center">
-                        <Card style={{ width: "18rem" }}>
-                            <Card.Img variant="top" src={notes} />
-                            <Card.Body>
-                                <Card.Title>Notes App</Card.Title>
-                                <Card.Text>
-                                    Developed a mobile notes application with
+                                    React-Bootstrap, and Firebase."
+                        link="https://github.com/tfenaroli/dalichat"
+                        image={dalichat}
+                    />
+                    <Project
+                        title="Notes App"
+                        caption="Developed a mobile notes application with
                                     posting, editing, and deleting features.
                                     Implemented using JavaScript, ReactJS, React
-                                    Native, and React Navigation.
-                                </Card.Text>
-                                <Button
-                                    href="https://github.com/tfenaroli/notes_app"
-                                    variant="outline-secondary"
-                                    target="_blank"
-                                >
-                                    Check it out!
-                                </Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-
-                    <Col className="mt-5 text-center d-flex justify-content-center">
-                        <Card style={{ width: "18rem" }}>
-                            <Card.Img variant="top" src={illuminate} />
-                            <Card.Body>
-                                <Card.Title>Dartmouth Illuminate</Card.Title>
-                                <Card.Text>
-                                    Created a responsive website for the
-                                    Dartmouth Society of Photographers.
-                                </Card.Text>
-                                <Button
-                                    href="https://github.com/tfenaroli/dartmouthphotographers.com"
-                                    variant="outline-secondary"
-                                    target="_blank"
-                                >
-                                    Check it out!
-                                </Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col className="mt-5 text-center d-flex justify-content-center">
-                        <Card style={{ width: "18rem" }}>
-                            <Card.Img variant="top" src={animation} />
-                            <Card.Body>
-                                <Card.Title>
-                                    Blender Python Scripting
-                                </Card.Title>
-                                <Card.Text>
-                                    Used Python scripting in Blender to animate
+                                    Native, and React Navigation."
+                        link="https://github.com/tfenaroli/notes_app"
+                        image={notes}
+                    />
+                    <Project
+                        title="Dartmouth Illuminate"
+                        caption="Created a responsive website for the
+                                    Dartmouth Society of Photographers."
+                        link="https://github.com/tfenaroli/dartmouthphotographers.com"
+                        image={illuminate}
+                    />
+                    <Project
+                        title="Blender Python Scripting"
+                        caption="Used Python scripting in Blender to animate
                                     a golf ball along CSV file coordinates for
-                                    3-d rendering.
-                                </Card.Text>
-                                <Button
-                                    href="https://gist.github.com/tfenaroli/0b08f9dcae8d40c567a6fecb30933d81"
-                                    variant="outline-secondary"
-                                    target="_blank"
-                                >
-                                    Check it out!
-                                </Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col className="mt-5 text-center d-flex justify-content-center">
-                        <Card style={{ width: "18rem" }}>
-                            <Card.Img variant="top" src={balloonpopper} />
-                            <Card.Body>
-                                <Card.Title>Balloon Popper</Card.Title>
-                                <Card.Text>
-                                    Used Pygame library to create bird, kite,
-                                    and balloon game.
-                                </Card.Text>
-                                <Button
-                                    href="https://github.com/tfenaroli/Balloon-Popper"
-                                    variant="outline-secondary"
-                                    target="_blank"
-                                >
-                                    Check it out!
-                                </Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col className="mt-5 text-center d-flex justify-content-center">
-                        <Card style={{ width: "18rem" }}>
-                            <Card.Img variant="top" src={website} />
-                            <Card.Body>
-                                <Card.Title>Personal Website</Card.Title>
-                                <Card.Text>
-                                    This website! Implemented using HTML, CSS,
+                                    3-d rendering."
+                        link="https://gist.github.com/tfenaroli/0b08f9dcae8d40c567a6fecb30933d81"
+                        image={animation}
+                    />
+                    <Project
+                        title="Balloon Popper"
+                        caption="Used Pygame library to create bird, kite,
+                                    and balloon game."
+                        link="https://github.com/tfenaroli/Balloon-Popper"
+                        image={balloonpopper}
+                    />
+
+                    <Project
+                        title="Personal Website"
+                        caption="This website! Implemented using HTML, CSS,
                                     JavaScript, ReactJS, React Router,
-                                    React-Bootstrap.
-                                </Card.Text>
-                                <Button
-                                    href="https://github.com/tfenaroli/personal_website"
-                                    variant="outline-secondary"
-                                    target="_blank"
-                                >
-                                    Check it out!
-                                </Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
+                                    React-Bootstrap."
+                        link="https://github.com/tfenaroli/personal_website"
+                        image={website}
+                    />
                 </Row>
                 <Row>
                     <Col className="mt-5 text-center d-flex justify-content-center">
@@ -425,7 +304,6 @@ const Work = () => {
                         </Card>
                     </Col>
                 </Row>
-                <Footer />
             </Container>
         </React.Fragment>
     );

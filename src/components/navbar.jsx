@@ -1,27 +1,28 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import resume from "../assets/Thomas_Fenaroli_Resume.pdf";
 import "../App.css";
 
 const NavBar = () => {
     return (
         <React.Fragment>
-            <Navbar className="sticky-top navtext border mt-5" expand="md">
+            <Navbar className="py-4 sticky-top navtext nav" expand="md">
                 <Container>
-                    <Navbar.Brand>Thomas Fenaroli</Navbar.Brand>
+                    <Navbar.Brand>thomas fenaroli</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse
                         className="justify-content-end"
                         id="basic-navbar-nav"
                     >
-                        <Nav className="border">
+                        <Nav>
                             <Nav.Link as={Link} to="/work">
                                 work
                             </Nav.Link>
                             <Nav.Link as={Link} to="/about">
                                 about
                             </Nav.Link>
-                            <Nav.Link as={Link} to="/contact">
+                            <Nav.Link href={resume} target="_blank">
                                 resume
                             </Nav.Link>
                         </Nav>
