@@ -15,16 +15,16 @@ const Work = () => {
     return (
         <React.Fragment>
             <Container>
-                <Col xs={8} className="animate__animated animate__fadeIn">
+                <Col md={8} className="animate__animated animate__fadeIn">
                     <p className="mt-4 bigtext">
-                        <b>Student and Software Engineer</b>
+                        <b>student and software engineer.</b>
                     </p>
                     <p className="fs-3">
-                        Currently studying Computer Science Modified with
-                        Economics{" "}
+                        currently studying Computer Science Modified with
+                        Economics.{" "}
                         <span className="dartmouth">@Dartmouth College</span>{" "}
                         and developing software{" "}
-                        <span className="teamlegislate">@Team Legislate</span>
+                        <span className="teamlegislate">@Team Legislate</span>.
                     </p>
                 </Col>
 

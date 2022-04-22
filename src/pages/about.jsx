@@ -13,7 +13,7 @@ const Contact = () => {
         <React.Fragment>
             <Container>
                 <Row>
-                    <Col md={8}>
+                    <Col md={8} className="animate__animated animate__fadeIn">
                         <p className="mt-4 bigtext">
                             <b>about me.</b>
                         </p>

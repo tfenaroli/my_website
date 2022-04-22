@@ -7,7 +7,7 @@ import "../App.css";
 const NavBar = () => {
     return (
         <React.Fragment>
-            <Navbar className="py-4 sticky-top navtext border nav" expand="md">
+            <Navbar className="py-4 sticky-top navtext nav" expand="md">
                 <Container>
                     <Navbar.Brand>thomas fenaroli</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
