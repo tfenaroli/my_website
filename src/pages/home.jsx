@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import Header from "../components/header";
+import Header from "../components/footer";
 import thomas from "../assets/thomas.jpg";
 import linkedin from "../assets/linkedin.jpg";
 import github from "../assets/github.jpg";
