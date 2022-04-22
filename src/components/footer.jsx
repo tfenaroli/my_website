@@ -7,19 +7,18 @@ const Footer = () => {
             <hr></hr>
             <Row>
                 <Col className="text-center mt-2 fs-3">
-                    <p>Let's Connect</p>
+                    <p>let's connect.</p>
                 </Col>
             </Row>
             <Row>
                 <Col className="text-center">
                     <p className="text-break text-muted fs-5">
-                        thomas.s.fenaroli.24@dartmouth.edu -
-                        tfenaroli@icloud.com - (203)-832-5002
+                        thomas.s.fenaroli.24@dartmouth.edu - (203)-832-5002
                     </p>
                 </Col>
             </Row>
             <Row className="d-flex justify-content-center">
-                <Col xs={4} className="my-2 d-flex justify-content-center">
+                <Col xs={4} className="mt-2 mb-4 d-flex justify-content-center">
                     <Button
                         className="mx-2"
                         variant="light"
