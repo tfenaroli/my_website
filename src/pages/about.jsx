@@ -61,7 +61,7 @@ const Contact = () => {
 
                 <Row className="mt-5">
                     <Col className="text-center animate__animated animate__fadeIn">
-                        <h1>Photos</h1>
+                        <h1>photos.</h1>
                     </Col>
                 </Row>
                 <Row className="mt-5 mb-5 justify-content-center">

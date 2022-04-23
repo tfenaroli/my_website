@@ -4,7 +4,7 @@ import { Row, Col, Button } from "react-bootstrap";
 const Footer = () => {
     return (
         <React.Fragment>
-            <hr></hr>
+            <hr className="mt-5"></hr>
             <Row>
                 <Col className="text-center mt-2 fs-3">
                     <p>let's connect.</p>

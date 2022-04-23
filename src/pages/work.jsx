@@ -47,7 +47,7 @@ const Work = () => {
                             .
                         </p>
                     </Col>
-                    <Col
+                    {/* <Col
                         md={4}
                         className="d-flex align-items-center animate__animated animate__flipInY animate__slow"
                     >
@@ -55,30 +55,28 @@ const Work = () => {
                         <p className="text-muted fs-4 text-bold">
                             Contributions
                         </p>
-                    </Col>
+                    </Col> */}
                 </Row>
 
                 {/* <h1>{getData()}</h1> */}
 
-                {/* <Row className="mt-4 justify-content-center">
+                <Row className="mt-5 justify-content-center">
                     <Col
                         className="animate__animated animate__fadeIn"
                         md={5}
                         xs={10}
                     >
-                        <img
+                        <Image
                             src={thomas}
                             className="img-fluid"
                             alt="thomasimg"
                         />
                     </Col>
-                </Row> */}
+                </Row>
 
                 <Row className="mt-5">
                     <Col className="text-center">
-                        <p className="fs-3">
-                            I've worked with companies like...
-                        </p>
+                        <p className="fs-3">who I've worked with.</p>
                     </Col>
                 </Row>
                 <Row className="mt-4 d-flex justify-content-center">
