@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Button, Image } from "react-bootstrap";
+import { Row, Col, Button, Image } from "react-bootstrap";
 import "../App.css";
 
 const Project = (props) => {
@@ -38,17 +38,6 @@ const Project = (props) => {
                 <p className="mt-2 text-muted">{props.tools}</p>
                 <p className="fs-5">{props.caption}</p>
             </Col>
-            {/* <Col className="mt-5 text-center d-flex justify-content-center">
-                <Card style={{ width: "18rem" }}>
-                    <a href={props.link} target="_blank">
-                        <Card.Img variant="top" src={props.image} />
-                    </a>
-                    <Card.Body>
-                        <Card.Title>{props.title}</Card.Title>
-                        <Card.Text>{props.caption}</Card.Text>
-                    </Card.Body>
-                </Card>
-            </Col> */}
         </React.Fragment>
     );
 };

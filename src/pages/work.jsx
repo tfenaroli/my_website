@@ -1,36 +1,68 @@
 import React from "react";
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { Image, Container, Row, Col, Card, Button } from "react-bootstrap";
 import Project from "../components/project";
-import Footer from "../components/footer";
 import balloonpopper from "../assets/balloonpopper.png";
 import dalichat from "../assets/dalichat.png";
 import notes from "../assets/notes.png";
 import website from "../assets/website.png";
 import illuminate from "../assets/illuminate.png";
 import animation from "../assets/animation.png";
+import vitalize from "../assets/vitalize.png";
+import legislate from "../assets/legislate.png";
 import thomas from "../assets/thomas.jpg";
 import "../App.css";
 
 const Work = () => {
+    // const getData = () => {
+    //     // let contributions = 2;
+    //     fetch("https://api.github.com/users/tfenaroli/contributions")
+    //         .then((response) => response.json()) //Converting the response to a JSON object
+    //         .then((response) => {
+    //             console.log("hi");
+    //             // repos = response.public_repos;
+    //             console.log(response);
+    //         })
+    //         .catch((error) => console.error(error));
+    //     // console.log("repos is: " + repos);
+    //     // return repos;
+    // };
     return (
         <React.Fragment>
             <Container>
-                <Col md={8} className="animate__animated animate__fadeIn">
-                    <p className="mt-4 bigtext">
-                        <b>student and software engineer.</b>
-                    </p>
-                    <p className="fs-3">
-                        currently studying Computer Science Modified with
-                        Economics.{" "}
-                        <span className="dartmouth">@Dartmouth College</span>{" "}
-                        and developing software{" "}
-                        <span className="teamlegislate">@Team Legislate</span>.
-                    </p>
-                </Col>
-
-                <Row className="mt-5 justify-content-center">
+                <Row className="mt-4">
+                    <Col md={8} className="animate__animated animate__fadeIn">
+                        <p className="bigtext">
+                            <b>student and software engineer.</b>
+                        </p>
+                        <p className="fs-3">
+                            currently studying Computer Science Modified with
+                            Economics.{" "}
+                            <span className="dartmouth">
+                                @Dartmouth College
+                            </span>{" "}
+                            and developing software{" "}
+                            <span className="teamlegislate">
+                                @Team Legislate
+                            </span>
+                            .
+                        </p>
+                    </Col>
                     <Col
-                        className="animate__animated animate__slideInLeft"
+                        md={4}
+                        className="d-flex align-items-center animate__animated animate__flipInY animate__slow"
+                    >
+                        <p className="text-muted fs-1 text-bold">32</p>
+                        <p className="text-muted fs-4 text-bold">
+                            Contributions
+                        </p>
+                    </Col>
+                </Row>
+
+                {/* <h1>{getData()}</h1> */}
+
+                {/* <Row className="mt-4 justify-content-center">
+                    <Col
+                        className="animate__animated animate__fadeIn"
                         md={5}
                         xs={10}
                     >
@@ -40,19 +72,21 @@ const Work = () => {
                             alt="thomasimg"
                         />
                     </Col>
-                    <Col
-                        md={5}
-                        xs={10}
-                        className="text-center bg-light animate__animated animate__slideInRight"
-                    >
-                        <p className="mt-4">
-                            I am a '24 at Dartmouth College from Greenwich, CT.
-                            At Dartmouth, I'm involved with the Dartmouth
-                            Society of Photographers, the Dartmouth Club Golf
-                            Team, and the Dartmouth Investment and Philanthropy
-                            Program. Outside of school, I am a software engineer
-                            at Team Legislate.
+                </Row> */}
+
+                <Row className="mt-5">
+                    <Col className="text-center">
+                        <p className="fs-3">
+                            I've worked with companies like...
                         </p>
+                    </Col>
+                </Row>
+                <Row className="mt-4 d-flex justify-content-center">
+                    <Col xs={6} md={3} className="">
+                        <Image fluid="true" src={vitalize} />
+                    </Col>
+                    <Col xs={6} md={3} className="">
+                        <Image fluid="true" src={legislate} />
                     </Col>
                 </Row>
 
@@ -316,7 +350,6 @@ const Work = () => {
                         </Card>
                     </Col>
                 </Row>
-                <Footer />
             </Container>
         </React.Fragment>
     );

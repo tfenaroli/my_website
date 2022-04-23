@@ -27,13 +27,13 @@ const Contact = () => {
                 <Row className="mt-5 justify-content-center">
                     <Col
                         className="animate__animated animate__slideInLeft"
-                        md={5}
+                        lg={5}
                         xs={10}
                     >
                         <img src={me} className="img-fluid" alt="" />
                     </Col>
                     <Col
-                        md={5}
+                        lg={5}
                         xs={10}
                         className="text-center bg-light animate__animated animate__slideInRight"
                     >
@@ -65,7 +65,7 @@ const Contact = () => {
                     </Col>
                 </Row>
                 <Row className="mt-5 mb-5 justify-content-center">
-                    <Col md={8}>
+                    <Col lg={8}>
                         <Carousel fade>
                             <Carousel.Item>
                                 <img

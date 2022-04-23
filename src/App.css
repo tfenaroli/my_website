@@ -60,7 +60,7 @@
 html,
 body {
     max-width: 100%;
-    /* overflow-x: ; */
+    overflow-x: hidden;
     /* background-color: #ca2525; */
 }
 
