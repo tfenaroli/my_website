@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col, Button } from "react-bootstrap";
+import "../App.css";
 
 const Footer = () => {
     return (
@@ -20,7 +21,7 @@ const Footer = () => {
             <Row className="d-flex justify-content-center">
                 <Col xs={4} className="mt-2 mb-4 d-flex justify-content-center">
                     <Button
-                        className="mx-2"
+                        className="mx-2 icon"
                         variant="light"
                         href="https://github.com/tfenaroli"
                         target="_blank"
@@ -29,7 +30,7 @@ const Footer = () => {
                     </Button>
 
                     <Button
-                        className="mx-2"
+                        className="mx-2 icon"
                         variant="light"
                         href="https://www.instagram.com/tfen_/"
                         target="_blank"
@@ -38,7 +39,7 @@ const Footer = () => {
                     </Button>
 
                     <Button
-                        className="mx-2"
+                        className="mx-2 icon"
                         variant="light"
                         href="https://www.facebook.com/thomas.fenaroli.14/"
                         target="_blank"
@@ -47,7 +48,7 @@ const Footer = () => {
                     </Button>
 
                     <Button
-                        className="mx-2"
+                        className="mx-2 icon"
                         variant="light"
                         href="https://www.linkedin.com/in/thomasfenaroli/"
                         target="_blank"
