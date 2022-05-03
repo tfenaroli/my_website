@@ -1,6 +1,7 @@
 import React from "react";
-import { Image, Container, Row, Col, Card, Button } from "react-bootstrap";
+import { Image, Container, Row, Col } from "react-bootstrap";
 import Project from "../components/project";
+import Classwork from "../components/classwork";
 import balloonpopper from "../assets/balloonpopper.png";
 import dalichat from "../assets/dalichat.png";
 import notes from "../assets/notes.png";
@@ -13,19 +14,6 @@ import thomas from "../assets/thomas.jpg";
 import "../App.css";
 
 const Work = () => {
-    // const getData = () => {
-    //     // let contributions = 2;
-    //     fetch("https://api.github.com/users/tfenaroli/contributions")
-    //         .then((response) => response.json()) //Converting the response to a JSON object
-    //         .then((response) => {
-    //             console.log("hi");
-    //             // repos = response.public_repos;
-    //             console.log(response);
-    //         })
-    //         .catch((error) => console.error(error));
-    //     // console.log("repos is: " + repos);
-    //     // return repos;
-    // };
     return (
         <React.Fragment>
             <Container>
@@ -36,7 +24,7 @@ const Work = () => {
                         </p>
                         <p className="fs-3">
                             currently studying Computer Science Modified with
-                            Economics.{" "}
+                            Economics{" "}
                             <span className="dartmouth">
                                 @Dartmouth College
                             </span>{" "}
@@ -47,23 +35,12 @@ const Work = () => {
                             .
                         </p>
                     </Col>
-                    {/* <Col
-                        md={4}
-                        className="d-flex align-items-center animate__animated animate__flipInY animate__slow"
-                    >
-                        <p className="text-muted fs-1 text-bold">32</p>
-                        <p className="text-muted fs-4 text-bold">
-                            Contributions
-                        </p>
-                    </Col> */}
                 </Row>
-
-                {/* <h1>{getData()}</h1> */}
 
                 <Row className="mt-5 justify-content-center">
                     <Col
                         className="animate__animated animate__fadeIn"
-                        md={5}
+                        lg={5}
                         xs={10}
                     >
                         <Image
@@ -81,10 +58,30 @@ const Work = () => {
                 </Row>
                 <Row className="mt-4 d-flex justify-content-center">
                     <Col xs={6} md={3} className="">
-                        <Image fluid="true" src={vitalize} />
+                        <a
+                            href="https://vitalizecare.co/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <Image
+                                className="company"
+                                fluid="true"
+                                src={vitalize}
+                            />
+                        </a>
                     </Col>
                     <Col xs={6} md={3} className="">
-                        <Image fluid="true" src={legislate} />
+                        <a
+                            href="https://www.teamlegislate.org/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <Image
+                                className="company"
+                                fluid="true"
+                                src={legislate}
+                            />
+                        </a>
                     </Col>
                 </Row>
 
@@ -158,195 +155,67 @@ const Work = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col className="mt-5 text-center d-flex justify-content-center">
-                        <Card style={{ width: "18rem" }}>
-                            <Card.Body>
-                                <Card.Title>
-                                    Breadth-First Search Path Finding
-                                </Card.Title>
-                                <Card.Text>
-                                    Used BFS to find shortest path between two
-                                    spots on Dartmouth's campus.
-                                </Card.Text>
-                                <Button
-                                    href="https://github.com/tfenaroli/dartmouth-cs1/tree/main/Lab%204"
-                                    variant="outline-secondary"
-                                    target="_blank"
-                                >
-                                    Check it out!
-                                </Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col className="mt-5 text-center d-flex justify-content-center">
-                        <Card style={{ width: "18rem" }}>
-                            <Card.Body>
-                                <Card.Title>
-                                    Breadth-First Search Color Matching
-                                </Card.Title>
-                                <Card.Text>
-                                    Used BFS to allow for web camera "painting".
-                                </Card.Text>
-                                <Button
-                                    href="https://github.com/tfenaroli/dartmouth-cs10/tree/main/PS1"
-                                    variant="outline-secondary"
-                                    target="_blank"
-                                >
-                                    Check it out!
-                                </Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col className="mt-5 text-center d-flex justify-content-center">
-                        <Card style={{ width: "18rem" }}>
-                            <Card.Body>
-                                <Card.Title>
-                                    QuadTree Collision Detection
-                                </Card.Title>
-                                <Card.Text>
-                                    Used QuadTrees to determine if two randomly
-                                    moving quantities had collided.
-                                </Card.Text>
-                                <Button
-                                    href="https://github.com/tfenaroli/dartmouth-cs10/tree/main/PS2"
-                                    variant="outline-secondary"
-                                    target="_blank"
-                                >
-                                    Check it out!
-                                </Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col className="mt-5 text-center d-flex justify-content-center">
-                        <Card style={{ width: "18rem" }}>
-                            <Card.Body>
-                                <Card.Title>Huffman Encoding</Card.Title>
-                                <Card.Text>
-                                    Used Huffman encoding to compress and
-                                    decompress text files.
-                                </Card.Text>
-                                <Button
-                                    href="https://github.com/tfenaroli/dartmouth-cs10/tree/main/PS3"
-                                    variant="outline-secondary"
-                                    target="_blank"
-                                >
-                                    Check it out!
-                                </Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col className="mt-5 text-center d-flex justify-content-center">
-                        <Card style={{ width: "18rem" }}>
-                            <Card.Body>
-                                <Card.Title>
-                                    Breadth First Search Graph Traversal
-                                </Card.Title>
-                                <Card.Text>
-                                    Used BFS to find "degrees of separation"
-                                    between any two actors.
-                                </Card.Text>
-                                <Button
-                                    href="https://github.com/tfenaroli/dartmouth-cs10/tree/main/PS4"
-                                    variant="outline-secondary"
-                                    target="_blank"
-                                >
-                                    Check it out!
-                                </Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col className="mt-5 text-center d-flex justify-content-center">
-                        <Card style={{ width: "18rem" }}>
-                            <Card.Body>
-                                <Card.Title>Viterbi Algorithm</Card.Title>
-                                <Card.Text>
-                                    Used Viterbi Algorithm to train and then tag
-                                    parts of speech of given text file.
-                                </Card.Text>
-                                <Button
-                                    href="https://github.com/tfenaroli/dartmouth-cs10/tree/main/PS5"
-                                    variant="outline-secondary"
-                                    target="_blank"
-                                >
-                                    Check it out!
-                                </Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col className="mt-5 text-center d-flex justify-content-center">
-                        <Card style={{ width: "18rem" }}>
-                            <Card.Body>
-                                <Card.Title>
-                                    Server and Client Collaborative Editor
-                                </Card.Title>
-                                <Card.Text>
-                                    Created a collaborative graphical editor
-                                    using server/client communication.
-                                </Card.Text>
-                                <Button
-                                    href="https://github.com/tfenaroli/dartmouth-cs10/tree/main/PS6"
-                                    variant="outline-secondary"
-                                    target="_blank"
-                                >
-                                    Check it out!
-                                </Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col className="mt-5 text-center d-flex justify-content-center">
-                        <Card style={{ width: "18rem" }}>
-                            <Card.Body>
-                                <Card.Title>Bash Pipelining</Card.Title>
-                                <Card.Text>
-                                    Used a Bash pipeline to sort and organize
-                                    United States COVID-19 vaccination data.
-                                </Card.Text>
-                                <Button
-                                    href="https://github.com/tfenaroli/dartmouth-cs50/tree/main/lab1-tfenaroli"
-                                    variant="outline-secondary"
-                                    target="_blank"
-                                >
-                                    Check it out!
-                                </Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col className="mt-5 text-center d-flex justify-content-center">
-                        <Card style={{ width: "18rem" }}>
-                            <Card.Body>
-                                <Card.Title>Data Structures</Card.Title>
-                                <Card.Text>
-                                    Created set, counters, and hashtable data
-                                    structures.
-                                </Card.Text>
-                                <Button
-                                    href="https://github.com/tfenaroli/dartmouth-cs50/tree/main/lab3-tfenaroli"
-                                    variant="outline-secondary"
-                                    target="_blank"
-                                >
-                                    Check it out!
-                                </Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col className="mt-5 text-center d-flex justify-content-center">
-                        <Card style={{ width: "18rem" }}>
-                            <Card.Body>
-                                <Card.Title>Tiny Search Engine</Card.Title>
-                                <Card.Text>
-                                    Created a crawler, indexer, and querier as
-                                    components of a tiny search engine.
-                                </Card.Text>
-                                <Button
-                                    href="https://github.com/tfenaroli/dartmouth-cs50/tree/main/tse-tfenaroli"
-                                    variant="outline-secondary"
-                                    target="_blank"
-                                >
-                                    Check it out!
-                                </Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
+                    <Classwork
+                        title="Tiny Search Engine"
+                        caption="Created a crawler, indexer, and querier as
+                                    components of a tiny search engine."
+                        link="https://github.com/tfenaroli/dartmouth-cs50-tse/tree/submit6"
+                    />
+                    <Classwork
+                        title="Huffman Encoding"
+                        caption="Used Huffman encoding to compress and
+                                    decompress text files."
+                        link="https://github.com/tfenaroli/dartmouth-cs10/tree/main/PS3"
+                    />
+                    <Classwork
+                        title="Viterbi Algorithm"
+                        caption="Used Viterbi Algorithm to train and then tag
+                                    parts of speech of given text file."
+                        link="https://github.com/tfenaroli/dartmouth-cs10/tree/main/PS5"
+                    />
+                    <Classwork
+                        title="Data Structures"
+                        caption="Created set, counters, and hashtable data
+                                    structures."
+                        link="https://github.com/tfenaroli/dartmouth-cs50-lab3/tree/submit3"
+                    />
+                    <Classwork
+                        title="QuadTree Collision Detection"
+                        caption="Used QuadTrees to determine if two randomly
+                                    moving quantities had collided."
+                        link="https://github.com/tfenaroli/dartmouth-cs10/tree/main/PS2"
+                    />
+                    <Classwork
+                        title="Server and Client Collaborative Editor"
+                        caption="Created a collaborative graphical editor
+                                    using server/client communication."
+                        link="https://github.com/tfenaroli/dartmouth-cs10/tree/main/PS6"
+                    />
+                    <Classwork
+                        title="Bash Pipelining"
+                        caption="Used a Bash pipeline to sort and organize
+                                    United States COVID-19 vaccination data."
+                        link="https://github.com/tfenaroli/dartmouth-cs50-lab1/tree/submit1"
+                    />
+
+                    <Classwork
+                        title="Breadth First Search Graph Traversal"
+                        caption="Used BFS to find degrees of separation
+                                    between any two actors."
+                        link="https://github.com/tfenaroli/dartmouth-cs10/tree/main/PS4"
+                    />
+                    <Classwork
+                        title="Breadth-First Search Path Finding"
+                        caption="Used BFS to find shortest path between two
+                                    spots on Dartmouth's campus."
+                        link="https://github.com/tfenaroli/dartmouth-cs1/tree/main/Lab%204"
+                    />
+
+                    <Classwork
+                        title="Breadth-First Search Color Matching"
+                        caption="Used BFS to allow for web camera painting."
+                        link="https://github.com/tfenaroli/dartmouth-cs10/tree/main/PS1"
+                    />
                 </Row>
             </Container>
         </React.Fragment>
