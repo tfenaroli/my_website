@@ -21,7 +21,15 @@ const Footer = () => {
             <Row className="d-flex justify-content-center">
                 <Col xs={4} className="mt-2 mb-4 d-flex justify-content-center">
                     <Button
-                        className="mx-2 icon"
+                        className="mx-2 icon linkedin"
+                        variant="light"
+                        href="https://www.linkedin.com/in/thomasfenaroli/"
+                        target="_blank"
+                    >
+                        <i className="bi bi-linkedin" />
+                    </Button>
+                    <Button
+                        className="mx-2 icon github"
                         variant="light"
                         href="https://github.com/tfenaroli"
                         target="_blank"
@@ -30,30 +38,20 @@ const Footer = () => {
                     </Button>
 
                     <Button
-                        className="mx-2 icon"
+                        className="mx-2 icon instagram"
                         variant="light"
                         href="https://www.instagram.com/tfen_/"
                         target="_blank"
                     >
                         <i className="bi bi-instagram" />
                     </Button>
-
                     <Button
-                        className="mx-2 icon"
+                        className="mx-2 icon facebook"
                         variant="light"
                         href="https://www.facebook.com/thomas.fenaroli.14/"
                         target="_blank"
                     >
                         <i className="bi bi-facebook" />
-                    </Button>
-
-                    <Button
-                        className="mx-2 icon"
-                        variant="light"
-                        href="https://www.linkedin.com/in/thomasfenaroli/"
-                        target="_blank"
-                    >
-                        <i className="bi bi-linkedin" />
                     </Button>
                 </Col>
             </Row>
