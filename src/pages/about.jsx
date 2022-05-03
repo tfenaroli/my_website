@@ -39,21 +39,20 @@ const Contact = () => {
                     >
                         <p className="mt-4">
                             I am a '24 at Dartmouth College from Greenwich, CT.
-                            At Dartmouth, I'm involved with Dartmouth Society of
-                            Photographers (as treasurer and website manager),
-                            the Dartmouth Club Golf Team, and the Dartmouth
+                            At Dartmouth, I'm involved with Dartmouth Club Golf
+                            Team, the Dartmouth Society of Photographers
+                            (treasurer and website manager), and the Dartmouth
                             Investment and Philanthropy Program. Outside of
                             school, I am a software engineer at Team Legislate,
                             where I help build software to enhance local
                             political engagement.
                         </p>
                         <p className="mt-4">
-                            I originally started college thinking that I was
-                            going to be an Economics major; however, after
-                            taking COSC 1, I quickly realized that I was
-                            fascinated by how computers can be used to create
-                            impactful software. In the future, I hope to
-                            continue engineering software that makes a
+                            I originally thought I was going to be an Economics
+                            major; however, after taking COSC 1 at Dartmouth, I
+                            quickly became fascinated by how computers can be
+                            used to create impactful software. In the future, I
+                            hope to continue engineering software that makes a
                             difference.
                         </p>
                     </Col>
