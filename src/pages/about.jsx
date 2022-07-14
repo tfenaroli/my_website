@@ -6,6 +6,8 @@ import dartmouth from "../assets/dartmouth.jpg";
 import skip from "../assets/skip.jpg";
 import vermont from "../assets/vermont.jpg";
 import skiprunning from "../assets/skiprunning.jpg";
+import bigben from "../assets/bigben.jpg";
+import london from "../assets/london.jpg";
 import me from "../assets/me.png";
 
 const Contact = () => {
@@ -48,11 +50,10 @@ const Contact = () => {
                             political engagement.
                         </p>
                         <p className="mt-4">
-                            I originally thought I was going to be an Economics
-                            major; however, after taking COSC 1 at Dartmouth, I
-                            quickly became fascinated by how computers can be
-                            used to create impactful software. In the future, I
-                            hope to continue engineering software that makes a
+                            After taking COSC 1 at Dartmouth, I quickly became
+                            fascinated by how computers can be used to create
+                            impactful software. In the future, I hope to
+                            continue engineering software that makes a
                             difference.
                         </p>
                     </Col>
@@ -76,36 +77,50 @@ const Contact = () => {
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src={gile}
+                                    src={bigben}
                                     alt="Second slide"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src={dartmouth}
+                                    src={gile}
                                     alt="Third slide"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src={skip}
+                                    src={dartmouth}
                                     alt="Fourth slide"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src={vermont}
+                                    src={skip}
                                     alt="Fifth slide"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src={skiprunning}
+                                    src={vermont}
                                     alt="Sixth slide"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src={skiprunning}
+                                    alt="Sevent slide"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src={london}
+                                    alt="Eighth slide"
                                 />
                             </Carousel.Item>
                         </Carousel>
