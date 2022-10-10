@@ -4,11 +4,13 @@ import Project from "../components/project";
 import Classwork from "../components/classwork";
 import balloonpopper from "../assets/balloonpopper.png";
 import dalichat from "../assets/dalichat.png";
-import notes from "../assets/notes.png";
+import memry from "../assets/memry.png";
+import roster from "../assets/roster.png";
 import website from "../assets/website.png";
 import illuminate from "../assets/illuminate.png";
 import animation from "../assets/animation.png";
 import vitalize from "../assets/vitalize.png";
+import dali from "../assets/dali.png";
 import legislate from "../assets/legislate.png";
 import thomas from "../assets/thomas.jpg";
 import "../App.css";
@@ -29,10 +31,7 @@ const Work = () => {
                                 @Dartmouth College
                             </span>{" "}
                             and developing software{" "}
-                            <span className="teamlegislate">
-                                @Team Legislate
-                            </span>
-                            .
+                            <span className="dali">@DALI Lab</span>.
                         </p>
                     </Col>
                 </Row>
@@ -56,6 +55,23 @@ const Work = () => {
                         <p className="fs-3">who I've worked with.</p>
                     </Col>
                 </Row>
+
+                <Row className="mt-4 d-flex justify-content-center">
+                    <Col xs={6} md={3} className="text-center">
+                        <a
+                            href="http://dali.dartmouth.edu/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <Image
+                                className="company"
+                                fluid="true"
+                                src={dali}
+                            />
+                        </a>
+                    </Col>
+                </Row>
+
                 <Row className="mt-4 d-flex justify-content-center">
                     <Col xs={6} md={3} className="">
                         <a
@@ -91,6 +107,14 @@ const Work = () => {
                     </Col>
                 </Row>
                 <Row className="d-flex justify-content-between">
+					<Project
+						title="Memry"
+						caption="Developing a full-stack mobile application with the DALI Lab that gamifies activities for Alzheimer’s
+						 patients and caregivers to improve patient quality of life."
+						link="https://github.com/dali-lab/memry-frontend"
+						tools="React Native, Express.js, Node.js, Cloud Firestore"
+						image={memry}
+					/>
                     <Project
                         title="DALIChat"
                         caption="Developed a responsive multi-page social
@@ -99,19 +123,16 @@ const Work = () => {
                                     features."
                         link="https://github.com/tfenaroli/dalichat"
                         tools="HTML, CSS,
-                                    JavaScript, ReactJS, React Router,
-                                    React-Bootstrap, and Firebase"
+                                    JavaScript, ReactJS, React-Bootstrap, Firebase"
                         image={dalichat}
                     />
                     <Project
-                        title="Notes App"
-                        caption="Developed a mobile notes application with
-                                    posting, editing, and deleting features.
-                                   "
-                        link="https://github.com/tfenaroli/notes_app"
-                        tools="JavaScript, ReactJS, React
-                                    Native, and React Navigation."
-                        image={notes}
+                        title="Roster"
+                        caption="Built a CRUD API and a mobile front-end that allows authenticated users to interact with a centralized collection of profile data."
+                        link="https://github.com/tfenaroli/roster-fe"
+                        tools="JavaScript, React
+                                    Native, NodeJS, ExpressJS, MongoDB, Firebase"
+                        image={roster}
                     />
                     <Project
                         title="Dartmouth Illuminate"
@@ -125,14 +146,14 @@ const Work = () => {
                         title="Blender Python Scripting"
                         caption="Used Python scripting in Blender to animate
                                     a golf ball along CSV file coordinates for
-                                    3-d rendering."
+                                    3-dimensional rendering."
                         link="https://gist.github.com/tfenaroli/0b08f9dcae8d40c567a6fecb30933d81"
                         tools="Python, MatLab"
                         image={animation}
                     />
                     <Project
                         title="Balloon Popper"
-                        caption="Used Pygame library to create bird, kite,
+                        caption="Used the Pygame library to create a bird, kite,
                                     and balloon game."
                         link="https://github.com/tfenaroli/Balloon-Popper"
                         tools="Python, Pygame"
@@ -144,8 +165,7 @@ const Work = () => {
                         caption="This website!"
                         link="https://github.com/tfenaroli/personal_website"
                         tools="HTML, CSS,
-                                    JavaScript, ReactJS, React Router,
-                                    React-Bootstrap."
+                                    JavaScript, ReactJS."
                         image={website}
                     />
                 </Row>

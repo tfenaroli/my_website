@@ -20,8 +20,8 @@ const Contact = () => {
                             <b>about me.</b>
                         </p>
                         <p className="fs-3">
-                            outside of school, I enjoy golf, music, photography,
-                            and fly fishing.
+                            outside of school, I enjoy golf, fly fishing, music,
+                            and photography.
                         </p>
                     </Col>
                 </Row>
@@ -39,18 +39,18 @@ const Contact = () => {
                         xs={10}
                         className="text-center bg-light animate__animated animate__slideInRight"
                     >
-                        <p className="mt-4">
+                        <p className="p-2 mt-4 fs-5">
                             I am a '24 at Dartmouth College from Greenwich, CT.
-                            At Dartmouth, I'm involved with Dartmouth Club Golf
-                            Team, the Dartmouth Society of Photographers
-                            (treasurer and website manager), and the Dartmouth
-                            Investment and Philanthropy Program. Outside of
-                            school, I am a software engineer at Team Legislate,
-                            where I help build software to enhance local
-                            political engagement.
+                            At Dartmouth, I'm co-captain of the Dartmouth Club
+                            Golf Team, treasurer of the Dartmouth Society of
+                            Photographers, and a member of the Dartmouth
+                            Investment and Philanthropy Program. I am also a
+                            software engineer at the Digital Applied Learning
+                            and Innovation (DALI) Lab.
                         </p>
-                        <p className="mt-4">
-                            After taking COSC 1 at Dartmouth, I quickly became
+                        <p className="p-2 mt-4 fs-5">
+                            After taking Introduction to Programming and
+                            Computation at Dartmouth, I quickly became
                             fascinated by how computers can be used to create
                             impactful software. In the future, I hope to
                             continue engineering software that makes a
