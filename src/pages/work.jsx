@@ -7,13 +7,16 @@ import dalichat from "../assets/dalichat.png";
 import memry from "../assets/memry.png";
 import roster from "../assets/roster.png";
 import website from "../assets/website.png";
-import illuminate from "../assets/illuminate.png";
 import animation from "../assets/animation.png";
 import vitalize from "../assets/vitalize.png";
 import dali from "../assets/dali.png";
-import appian from "../assets/appian.png"
+import zeal from "../assets/zeal.png";
+import appian from "../assets/appian.png";
 import legislate from "../assets/legislate.png";
 import thomas from "../assets/thomas.jpg";
+import textbot from "../assets/textbot.png";
+import zealapp from "../assets/zealapp.png";
+
 import "../App.css";
 
 const Work = () => {
@@ -92,6 +95,19 @@ const Work = () => {
                             />
                         </a>
                     </Col>
+					<Col xs={6} md={3} className="text-center">
+                        <a
+                            href="http://getzeal.co/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <Image
+                                className="company"
+                                fluid="true"
+                                src={zeal}
+                            />
+                        </a>
+                    </Col>
                 </Row>
 
                 <Row className="mt-4 d-flex justify-content-center">
@@ -128,13 +144,29 @@ const Work = () => {
                         <h1>projects.</h1>
                     </Col>
                 </Row>
+
                 <Row className="d-flex justify-content-between">
 					<Project
+						title="Zeal"
+						caption="Worked on Zeal's engineering team to develop a mobile app that simplifies
+						the process of scheduling in-person activities centered around common interests."
+						link="https://github.com/joy-app-22"
+						tools="React Native, Expo, Node.js, Cloud Firestore, Cloud Storage, Cloud Functions, Redux"
+						image={zealapp}
+					/>
+					<Project
+						title="Text Bot"
+						caption="Built an SMS bot that texts my cell phone a word of the day every morning."
+						link="https://github.com/tfenaroli/text-bot"
+						tools="Python, AWS Lambda, AWS EventBridge"
+						image={textbot}
+					/>
+					<Project
 						title="Memry"
-						caption="Developing a full-stack mobile application with the DALI Lab that gamifies activities for Alzheimer’s
+						caption="Developed a full-stack mobile application with the DALI Lab that gamifies activities for Alzheimer’s
 						 patients and caregivers to improve patient quality of life."
 						link="https://github.com/dali-lab/memry-frontend"
-						tools="React Native, Express.js, Node.js, Cloud Firestore"
+						tools="React Native, Expo, Express.js, Node.js, Cloud Firestore"
 						image={memry}
 					/>
                     <Project
@@ -145,24 +177,15 @@ const Work = () => {
                                     features."
                         link="https://github.com/tfenaroli/dalichat"
                         tools="HTML, CSS,
-                                    JavaScript, ReactJS, React-Bootstrap, Firebase"
+                                    JavaScript, React.js, React-Bootstrap, Firebase"
                         image={dalichat}
                     />
                     <Project
                         title="Roster"
-                        caption="Built a CRUD API and a mobile front-end that allows authenticated users to interact with a centralized collection of profile data."
+                        caption="Built a RESTful API and a mobile front-end that allows authenticated users to interact with a centralized collection of profile data."
                         link="https://github.com/tfenaroli/roster-fe"
-                        tools="JavaScript, React
-                                    Native, NodeJS, ExpressJS, MongoDB, Firebase"
+                        tools="React Native, Expo, NodeJS, ExpressJS, MongoDB, Firebase"
                         image={roster}
-                    />
-                    <Project
-                        title="Dartmouth Illuminate"
-                        caption="Created a responsive website for the
-                                    Dartmouth Society of Photographers."
-                        link="https://github.com/tfenaroli/dartmouthphotographers.com"
-                        tools="HTML, CSS"
-                        image={illuminate}
                     />
                     <Project
                         title="Blender Python Scripting"
@@ -187,7 +210,7 @@ const Work = () => {
                         caption="This website!"
                         link="https://github.com/tfenaroli/personal_website"
                         tools="HTML, CSS,
-                                    JavaScript, ReactJS."
+                                    JavaScript, React.js"
                         image={website}
                     />
                 </Row>
