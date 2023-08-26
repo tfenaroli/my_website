@@ -41,20 +41,17 @@ const Contact = () => {
                     >
                         <p className="p-2 mt-4 fs-5">
                             I am a '24 at Dartmouth College from Greenwich, CT.
-                            At Dartmouth, I'm co-captain of the Dartmouth Club
-                            Golf Team, treasurer of the Dartmouth Society of
-                            Photographers, and a member of the Dartmouth
-                            Investment and Philanthropy Program. I am also a
-                            software engineer at the Digital Applied Learning
-                            and Innovation (DALI) Lab.
+                            At school, I'm a member of the Club
+                            Golf Team, a member of the Dartmouth
+                            Investment and Philanthropy Program, and a software engineer
+							at the Digital Applied Learning and Innovation (DALI) Lab.
                         </p>
                         <p className="p-2 mt-4 fs-5">
-                            After taking Introduction to Programming and
-                            Computation at Dartmouth, I quickly became
-                            fascinated by how computers can be used to create
-                            impactful software. In the future, I hope to
-                            continue engineering software that makes a
-                            difference.
+                            While taking Introduction to Programming and
+                            Computation at Dartmouth, I became
+                            fascinated by the world of software. I hope to use
+							what I've learned to build robust software solutions
+							to problems around me.
                         </p>
                     </Col>
                 </Row>
