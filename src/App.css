@@ -53,6 +53,11 @@ body {
 	color: #01adab;
 }
 
+.wealthfront {
+	font-weight: bold;
+	color: #4841bb;
+}
+
 .bigtext {
 	font-size: 36px;
 }

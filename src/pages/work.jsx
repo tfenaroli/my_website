@@ -9,6 +9,7 @@ import vitalize from "../assets/vitalize.png";
 import dali from "../assets/dali.png";
 import zeal from "../assets/zeal.png";
 import appian from "../assets/appian.png";
+import wealthfront from "../assets/wealthfront.png";
 import mdme from "../assets/mdme.jpg";
 import thomas from "../assets/thomas.jpg";
 import textbot from "../assets/textbot.png";
@@ -31,6 +32,7 @@ const Work = () => {
                                 @ Dartmouth College
                             </span> and developing software{" "}
                             <span className="dali">@ DALI Lab</span>.
+							 incoming software engineer <span className="wealthfront">@ Wealthfront</span>.
                         </p>
                     </Col>
                 </Row>
@@ -48,6 +50,28 @@ const Work = () => {
                         />
                     </Col>
                 </Row>
+
+				<Row className="mt-5">
+                    <Col className="text-center">
+                        <p className="fs-3">incoming SWE @</p>
+                    </Col>
+                </Row>
+
+				<Row className="mt-4 d-flex align-items-center justify-content-center">
+					<Col xs={6} md={3} className="text-center">
+						<a
+							href="https://wealthfront.com/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<Image
+								className="company"
+								fluid="true"
+								src={wealthfront}
+							/>
+						</a>
+					</Col>
+				</Row>
 
                 <Row className="mt-5">
                     <Col className="text-center">
